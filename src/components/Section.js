@@ -12,4 +12,8 @@ const Section = () => {
 
 export default Section;
 
-const Wrap = styled.div``;
+const Wrap = styled.div`
+  width: 100vw; //full view width
+  height: 100vh;
+  background-color: orange;
+`;
